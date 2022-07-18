@@ -37,7 +37,10 @@ body::after {
   position: relative;
   display: flex;
   justify-content: center;
-  max-width: 800px;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
   z-index: 1;
 }
 
@@ -61,6 +64,7 @@ body::after {
 
 .card-header i {
   margin-left: auto;
+  cursor: pointer;
 }
 
 .card-body {
